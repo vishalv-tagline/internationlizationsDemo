@@ -1,0 +1,40 @@
+{
+    "header":{
+        "text2": "French",
+        "menu":[
+            {
+                "text":"Maison",
+                "link":"fr/home"
+            },
+            {
+                "text":"À propos de nous",
+                "link":"fr/aboutus"
+            },
+            {
+                "text":"Galerie",
+                "link":"fr/gallary"
+            },
+            {
+                "text":"Des produits",
+                "link":"fr/products"
+            },
+            {
+                "text":"Prestations de service",
+                "link":"fr/services"
+            },
+            {
+                "text":"Contactez-nous",
+                "link":"fr/contactus"
+            }
+        ]
+    },
+    "content":{
+        "home":"Maison",
+        "home2":"Le terme « maison » recouvre un grand nombre de besoins et d'exigences. Une maison nécessite différents espaces, y compris ceux pour dormir, cuisiner, manger et hygiène, en un seul endroit. La vie à la maison est quelque chose d'assez ordinaire dans ce contexte, mais en aucun cas sans importance. La vie à la maison est une façon pour les gens de se définir. L'endroit où une personne choisit de vivre identifie ses préférences et ses contraintes. La taille, la forme et l'ameublement d'une maison, ainsi que la façon dont elle est occupée, influencent les états d'esprit des personnes qui s'y trouvent. C'est un lieu de retraite, mais aussi un lieu de communication ; pour les situations introverties et extraverties. Des ensembles d'événements fondamentalement différents peuvent avoir lieu en même temps, et il n'est pas toujours possible de combiner les divers intérêts et fonctions sans faire de compromis.",
+        "aboutus":"À propos de nous",
+        "gallary":"Galerie",
+        "products":"Des produits",
+        "services":"Prestations de service",
+        "contactus":"Contactez-nous"
+}
+}

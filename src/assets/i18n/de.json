@@ -1,0 +1,40 @@
+{
+    "header":{
+        "text2":"German",
+        "menu":[
+            {
+                "text":"Zuhanuse",
+                "link":"/de/home"
+            },
+            {
+                "text":"Uber uns",
+                "link":"de/aboutus"
+            },
+            {
+                "text":"Galerie",
+                "link":"de/gallary"
+            },
+            {
+                "text":"Produkte",
+                "link":"de/products"
+            },
+            {
+                "text":"Dienstleistungen",
+                "link":"de/services"
+            },
+            {
+                "text":"Kontaktiere uns",
+                "link":"de/contactus"
+            }
+        ]
+    },
+    "content":{
+        "home":"Zuhanuse",
+        "home2":"Der Begriff „Zuhause“ umfasst eine Vielzahl von Bedürfnissen und Anforderungen. Ein Zuhause benötigt verschiedene Bereiche, darunter Schlafen, Kochen, Essen und Hygiene, an einem Ort. Das häusliche Leben ist in diesem Zusammenhang etwas ganz Gewöhnliches, aber keineswegs unwichtig. Das Leben zu Hause ist eine Möglichkeit, sich selbst zu definieren. Der Ort, den eine Person zum Leben wählt, identifiziert ihre Vorlieben und Einschränkungen. Größe, Form und Ausstattung eines Hauses sowie die Art und Weise, wie es bewohnt wird, beeinflussen die Gemütsverfassung der Menschen darin. Es ist ein Ort des Rückzugs, aber auch ein Ort der Kommunikation; für introvertierte und extrovertierte Situationen. Es können grundsätzlich unterschiedliche Veranstaltungsreihen gleichzeitig stattfinden, und nicht immer lassen sich die unterschiedlichen Interessen und Funktionen kompromisslos kombinieren.",
+        "aboutus":"Uber uns",
+        "gallary":"Galerie",
+        "products":"Produkte",
+        "services":"Dienstleistungen",
+        "contactus":"Kontaktiere uns"
+}
+}

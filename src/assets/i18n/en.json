@@ -1,0 +1,40 @@
+{
+    "header":{
+        "text2": "English",
+        "menu":[
+            {
+                "text":"Home",
+                "link":"/home"
+            },
+            {
+                "text":"About Us",
+                "link":"/aboutus"
+            },
+            {
+                "text":"Gallary",
+                "link":"/gallary"
+            },
+            {
+                "text":"Products",
+                "link":"/products"
+            },
+            {
+                "text":"Services",
+                "link":"/services"
+            },
+            {
+                "text":"Contact Us",
+                "link":"/contactus"
+            }
+        ]
+    },
+    "content":{
+            "home":"Home",
+            "home2":"The term “home” covers a large number of needs and requirements. A home requires different areas, including those for sleeping, cooking, eating and hygiene, in a single location. Home life is something quite ordinary in this context, but by no means unimportant. Life at home is one way people have of defining themselves. The place a person chooses to live identifies their preferences and constraints. The size, form and furnishings of a home, and the way it is occupied, influence the states of mind of the people in it. It is a place for retreat, but also a place for com-munication; for both introverted and extroverted situations. Fundamen-tally different sets of events may take place at the same time, and it is not always possible to combine the various interests and functions with-out making compromis.",
+            "aboutus":"About Us",
+            "gallary":"Gallary",
+            "products":"Products",
+            "services":"Services",
+            "contactus":"Contact Us"
+    }
+}

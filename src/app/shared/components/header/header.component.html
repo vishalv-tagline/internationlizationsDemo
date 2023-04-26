@@ -1,0 +1,54 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold">{{ "header.text2" | translate }}</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item" *ngFor="let menu of 'header.menu' | translate">
+          <a
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            class="nav-link active"
+            routerLink="{{ menu?.link }}"
+            aria-current="page"
+            href="#"
+            >{{ menu?.text }}</a
+          >
+        </li>
+      </ul>
+      <div class="d-flex p-3">
+        <div class="btn-group">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            data-bs-auto-close="true"
+            aria-expanded="false"
+          >
+            {{ selectedDropdown }}
+          </button>
+          <ul class="dropdown-menu">
+            <li *ngFor="let language of languageList">
+              <a
+                class="dropdown-item cursor-pointer"
+                (click)="selectLanguage(language)"
+                >{{ language.label }}</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

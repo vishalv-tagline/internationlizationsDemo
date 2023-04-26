@@ -1,0 +1,27 @@
+<div class="container-fluid">
+  <!-- <h2 class="text-danger">{{ "content.home" | translate }}</h2> -->
+  <!-- <h1 i18n="main header|Friendly welcoming message">Hello World!</h1> -->
+  <div class="container">
+    <div class="card mt-4">
+      <div class="card-header">
+        <h2 class="text-center text-danger fw-bold p-2">
+          {{ "content.home" | translate }}
+        </h2>
+      </div>
+      <div class="card-body">
+        <img
+          src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSCo-31ziv39ojQBP2FDIMD2giQb3L4SsUv7tLuqARsvjzjU2krYaNo0DeZDaxkeeMVsI91HDObcbxB2__3SF0"
+          alt="img"
+          style="
+            height: 50%;
+            width: 50%;
+            margin-left: 300px;
+            border-radius: 20px;
+          "
+          class="p-3"
+        />
+      </div>
+      <div class="card-footer">{{ "content.home2" | transloco }}</div>
+    </div>
+  </div>
+</div>

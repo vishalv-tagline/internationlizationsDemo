@@ -1,0 +1,40 @@
+{
+    "header":{
+        "text2": "Spanish",
+        "menu":[
+            {
+                "text":"Hogar",
+                "link":"es/home"
+            },
+            {
+                "text":"Sobre nosotras",
+                "link":"es/aboutus"
+            },
+            {
+                "text":"Galeria",
+                "link":"es/gallary"
+            },
+            {
+                "text":"Productos",
+                "link":"es/products"
+            },
+            {
+                "text":"Servicios",
+                "link":"es/services"
+            },
+            {
+                "text":"Contacta con nosotras",
+                "link":"es/contactus"
+            }
+        ]
+    },
+    "content":{
+            "home":"Hogar",
+            "home2":"El término “hogar” engloba una gran cantidad de necesidades y requerimientos. Un hogar requiere diferentes áreas, incluidas las de dormir, cocinar, comer e higienizarse, en un solo lugar. La vida en el hogar es algo bastante común en este contexto, pero de ninguna manera sin importancia. La vida en el hogar es una forma que tienen las personas de definirse a sí mismas. El lugar que una persona elige para vivir identifica sus preferencias y limitaciones. El tamaño, la forma y el mobiliario de una casa, y la forma en que se ocupa, influyen en los estados de ánimo de las personas que la habitan. Es un lugar de retiro, pero también de comunicación; tanto para situaciones introvertidas como extrovertidas. Fundamentalmente, diferentes conjuntos de eventos pueden tener lugar al mismo tiempo, y no siempre es posible combinar los diversos intereses y funciones sin hacer compromisos.",
+            "aboutus":"Sobre nosotras",
+            "gallary":"Galeria",
+            "products":"Productos",
+            "services":"Servicios",
+            "contactus":"Contacta con nosotras"
+    }
+}
